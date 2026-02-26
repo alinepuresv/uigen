@@ -1,0 +1,13 @@
+Write comprehensive tests for: $ARGUMENTS
+
+Testing conventions:
+* Use Vitests with React Testing Library
+* Place test files in a _tests_ directory in the same folder of the source file
+* Name test files as [filename].test.ts(x)
+* Use @/ prefix for imports
+
+Coverage:
+* Test happy paths
+* Test edge cases
+* Test error states
+* Focus on testing behaviour and public API's rather than implementation details.
